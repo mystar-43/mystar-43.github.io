@@ -7,20 +7,34 @@
 
     *{margin: 0;
     padding: 0;}
-h3 {border-left:solid 10px red;
-	margin: 15px;
-	padding-left: 10px;}
 
-span {border-bottom: dotted 1px purple;}
+    h3 {border-left:solid 10px red;
+	margin: 20px;
+	padding-left: 15px;}
 
-#title1 {border: solid 2px black;
-padding: 10px; 
-margin: 10px;
-width: 450px;}
+    #title1 {border: solid 2px black;
+    padding: 10px; 
+    margin: 10px;
+    width: 450px;
+    }
 
-.text{font-weight: bold;
-color:black;}
+    .text{font-weight: bold;
+    color:black;}
 
+    p {
+    margin: 10px;
+    width: 450px;}
+
+    ul {border: solid 1px black;
+    padding: 20px 30px 30px 20px;
+    width: 500px;
+    margin: 20px;}
+
+    li {list-style-type: none;
+    border-bottom: dotted 1px purple;
+    margin: 5px;}
+
+    
 </style>
 </head>
 
@@ -29,23 +43,19 @@ color:black;}
     <form action="야간개장2.html">
     <h3>주말 야간 개장 안내</h3>
 
-    <p id="title1">
-        <span>
-        - <span class="text">기간</span> : 4.28~8.20 18:00~22:00 (입장마감 21시)
-        </span>
+    <p>
+     <ul>
+       <li> - <span class="text">
+        기간</span> : 4.28~8.20 18:00~22:00 (입장마감 21시)</li> 
          <br>
-        <span>
-        - <span class="text">대상</span>: 동물원, 식물원 </span>
+        <li>- <span class="text">대상</span>: 동물원, 식물원</li> 
         <br>
-        <span>
-        - <span class="text">프로그램</span> : 야간동물원 관람, 동물생태 설명회, 식물전시 
-        </span>
+        <li>- <span class="text">프로그램</span> : 야간동물원 관람, 동물생태 설명회, 식물전시</li>
         <br>
-        <span>
-        - <span class="text">방문자 신분</span>: <input type="radio"> 호서대 재학생
+        <li>- <span class="text">방문자 신분</span>: <input type="radio"> 호서대 재학생
         <input type="radio"> 일반인  
-        <input type="submit" value="방문신청">
-        </span>
+        <input type="submit" value="방문신청"> </li>
+        </ul>
     </p>
    
 </form>
