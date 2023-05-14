@@ -1,17 +1,44 @@
-<!DOCTYPE html>
-<!-- saved from url=(0293)file:///C:/Users/mathe/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EC%98%88%EC%A7%84/2%ED%95%99%EB%85%84/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%8B%A4%EC%8A%B5%EC%9E%90%EB%A3%8C%20(%EA%B5%90%EC%88%98%EB%8B%98)/ch04/ch04%EC%8B%A4%EC%8A%B5%EC%9E%90%EB%A3%8C/weather.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<style>
-table, th, tr, td {
-	border: solid 1px black;
-	border-collapse: collapse;
-	padding: 8px;
-}
-</style>
-</head>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            table, tr, th, td
+            {border: solid 1px black;
+            border-collapse: collapse;
+            padding: 8px;}
+
+            h3 :link {color: blue; text-decoration: none;}
+            h3 :visited {color: blue; text-decoration: none;}
+            h3 :hover {color: green; text-decoration: none;}
+        </style>
+            <script>
+                function subblue() {
+                    e = document.getElementById('test')
+                    e.style.color = 'blue';
+                }
+                function subred() {
+                    e = document.getElementById('test')
+                    e.style.color = 'purple';
+                }
+            </script>
+    </head>
+       
 <body>
-<h3>조예진의 2023년도 1학기 시간표</h3>
+<h3 id="test">조예진의 2023년도 1학기 시간표</h3>
+
+<button onclick="subblue();" type="button">blue</button>
+<button onclick="subred();" type="button">purple</button>
+
+<br>
+<br>
+
+<img onmouseout="this.style.width='100px' 
+"onmouseover="this.style.width='200px' 
+"src="anarchy.png" width="100px">
+<br>
+<br>
 
 <table>
 
